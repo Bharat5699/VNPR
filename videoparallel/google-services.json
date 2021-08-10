@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "435180010321",
+    "firebase_url": "https://vnpr-7336b.firebaseio.com",
+    "project_id": "vnpr-7336b",
+    "storage_bucket": "vnpr-7336b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:435180010321:android:e75c7abe5aa70ca770b170",
+        "android_client_info": {
+          "package_name": "org.doubango.ultimateAlpr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "435180010321-nvdnp5uhkomc2kab94i1c1qqckehofrk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.doubango.ultimateAlpr",
+            "certificate_hash": "129b4c9b347f438213ed0d66c52b9b450a5e84dd"
+          }
+        },
+        {
+          "client_id": "435180010321-3kn98g7gk5j2illmq64om4t664vnjuue.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGIefOW4iEYMjY-2dFWxqKlnJT6-ZrQ5c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "435180010321-3kn98g7gk5j2illmq64om4t664vnjuue.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

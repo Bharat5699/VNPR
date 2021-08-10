@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".detect_number_plate">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="257dp"
+                android:layout_height="54dp"
+                android:layout_marginStart="76dp"
+                android:layout_marginTop="72dp"
+                android:text="Capture Image"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="35sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+    <EditText
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="Result"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+            <Button
+                android:id="@+id/btn_check"
+                android:layout_width="120dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="135dp"
+                android:layout_marginTop="35dp"
+                android:text="Check"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:onClick="check"/>
+
+            <Button
+        android:id="@+id/btn_getdetails"
+        android:layout_width="120dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="135dp"
+         android:layout_marginTop="35dp"
+        android:text="Get Details"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+                android:onClick="getDetails"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
